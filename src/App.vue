@@ -27,7 +27,7 @@ export default {
 }
 
 #app {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
   .container {
     padding: 0 20%;
@@ -45,11 +45,18 @@ export default {
   }
 
   .btn {
-    padding: 10px 20px;
+    padding: 8px 20px;
+    color: #038484;
+    background-color: transparent;
+    border: 1px solid #038484;
+    border-radius: 5px;
+  }
+
+  .btn-hover {
     color: #fff;
     background-color: #038484;
     border: none;
-    border-radius: 3px;
   }
+
 }
 </style>

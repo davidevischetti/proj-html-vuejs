@@ -8,10 +8,11 @@
             <a href="#">{{link}}</a>
         </li>
     </ul>
-    <button class="btn">GET IN TOUCH</button>
+    <button class=" btn btn-hover">GET IN TOUCH</button>
 </div>
-
 </nav>
+
+
 </template>
 
 <script>
