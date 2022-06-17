@@ -23,8 +23,10 @@ export default {
 }
 
 #app {
- div {
-  color: red;
- }
+  font-family: Arial, Helvetica, sans-serif;
+  
+  .container {
+    padding: 0 20%;
+  }
 }
 </style>
