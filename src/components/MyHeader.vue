@@ -36,10 +36,10 @@ header {
   height: 30px;
   background-color: #21333e;
   color: #ccc;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   font-size: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
 
   .info {
     width: 40%;
