@@ -5,6 +5,7 @@
     <ServicesSection/>
     <CompanySection/>
     <ProjectsSection/>
+    <ResultsSection/>
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import MyJumbo from './components/MyJumbo.vue'
 import ServicesSection from './components/ServicesSection.vue'
 import CompanySection from './components/CompanySection.vue'
 import ProjectsSection from './components/ProjectsSection.vue'
+import ResultsSection from './components/ResultsSection.vue'
 
 
 export default {
@@ -23,7 +25,8 @@ export default {
     MyJumbo,
     ServicesSection,
     CompanySection,
-    ProjectsSection
+    ProjectsSection,
+    ResultsSection
 }
 }
 </script>
