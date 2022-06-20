@@ -59,6 +59,11 @@ export default {
     border: 1px solid #038484;
     border-radius: 5px;
     cursor: pointer;
+
+    &:hover {
+        color: #fff;
+        background-color: #038484;
+    }
   }
 
   .btn-hover {

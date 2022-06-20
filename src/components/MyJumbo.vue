@@ -67,11 +67,6 @@ section {
       margin-right: 20px;
     }
 
-    .btn:hover {
-      color: #fff;
-      background-color: #038484;
-    }
-
   }
 }
 </style>
