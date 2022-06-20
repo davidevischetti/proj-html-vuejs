@@ -1,11 +1,11 @@
 <template>
-<div>
-    <img :src="addProject.img" alt="img">
-    <div id="project-card">
+<div id="project-card">  
+    <div>
         <a href="#"><font-awesome-icon icon="fa-solid fa-arrow-right"/></a>
         <h3>{{addProject.text}}</h3>
         <p>{{addProject.info}}</p>
     </div>
+    <img :src="addProject.img" alt="img">  
 </div>
 
 </template>
@@ -19,30 +19,35 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-div {
+#project-card {
     width: 280px;
     height: 280px;
     margin-bottom: 25px;
     border-radius: 10px;
     position: relative;
-    background-color: rgba(50, 50, 50, 0.5);
+
+    &:hover img {
+            filter: blur(2px);
+            transition: all 0.5s;
+        }
 
     img {
         width: 100%;
         border-radius: 10px;
+    }
+
+    div {
+        width: 100%;
+        height: 100%;
+        z-index: 30;
         position: absolute;
         top: 0;
         left: 0;
-    }
-
-    #project-card {
-        width: 100%;
-        height: 100%;
-
         padding: 20px 0;
         display: flex;
         flex-flow: column wrap;
         justify-content: flex-end;
+        background-color: rgba(50, 50, 50, 0.5);
 
         &:hover p,
         &:hover a { 
