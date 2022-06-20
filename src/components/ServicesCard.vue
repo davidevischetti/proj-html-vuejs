@@ -1,6 +1,6 @@
 <template>
-<div id="card">
-    <img :src="addService.img" alt="logo">
+<div id="service-card">
+    <img :src="addService.img" alt="img">
     <a href="#"><font-awesome-icon icon="fa-solid fa-arrow-right"/></a>
     <h3>{{addService.text}}</h3>
     <p>{{addService.info}}</p>
@@ -16,7 +16,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-#card {
+#service-card {
     padding: 30px;
     flex-basis: 30%;
     background-color: #fff;

@@ -4,6 +4,7 @@
     <MyJumbo/>
     <ServicesSection/>
     <CompanySection/>
+    <ProjectsSection/>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import MyHeader from './components/MyHeader.vue'
 import MyJumbo from './components/MyJumbo.vue'
 import ServicesSection from './components/ServicesSection.vue'
 import CompanySection from './components/CompanySection.vue'
+import ProjectsSection from './components/ProjectsSection.vue'
 
 
 export default {
@@ -20,7 +22,8 @@ export default {
     MyHeader,
     MyJumbo,
     ServicesSection,
-    CompanySection
+    CompanySection,
+    ProjectsSection
 }
 }
 </script>
@@ -65,7 +68,7 @@ export default {
 
   .special-text {
     display: inline-block;
-    padding: 0 20px;
+    padding: 5px 20px;
     border-radius: 5px;
   }
 

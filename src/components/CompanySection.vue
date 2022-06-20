@@ -1,5 +1,6 @@
 <template>
 <section>
+    <!-- colore svg impostato per puntini neri -->
     <img class="bullets up" src="../assets/svg/svg-0.svg" alt="bullets">
     <img class="bullets down" src="../assets/svg/svg-0.svg" alt="bullets">
 
@@ -7,6 +8,7 @@
         <h5>ABOUT THE NETWORK</h5>
         <h2><div class="special-text">The</div> Company</h2>
         <p>For 12 years have been poviding audit and warranty&comma; financial advice&comma; risk advice&comma; taxes and releted services to select clients&period;</p>
+        <!-- Ho usato icone sostituive perche' qulle presenti in screen mancavano dal materiale fornito -->
         <div class="info-card">
             <img src="../assets/svg/svg-1.svg" alt="logo">
             <h3>Tradition</h3>

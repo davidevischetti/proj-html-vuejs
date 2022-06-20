@@ -4,7 +4,7 @@
     <MyNavBar/>
 
     <div id="hero-text">
-      <h1>READY<div class="special-text">TEAM</div></h1>
+      <h1>READY <div class="special-text">TEAM</div></h1>
       <p>No matter what your company needs, we will be ready to assist you in the best possible way.</p>
       <div>
         <button class="btn btn-hover">GET IN TOUCH</button>

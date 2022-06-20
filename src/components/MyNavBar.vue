@@ -1,5 +1,6 @@
 <template>
 <nav class="container">
+    <!-- Immagine logo navbar sostituita con logo footer causa errore di caricamento-->
 <img src="../assets/svg/svg-7.svg" alt="logo">
 
 <div id="nav-bar">
