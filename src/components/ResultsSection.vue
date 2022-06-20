@@ -134,7 +134,8 @@ section {
             margin: 80px 0;
 
             img {
-                height: 25px;
+                height: 22px;
+                filter: invert(50%);
             }
         }
     }    
