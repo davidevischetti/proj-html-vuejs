@@ -7,17 +7,17 @@
 </div>
 
 <div class="info">
-  <div>
+  <a href="#">
     <font-awesome-icon icon="fa-solid fa-phone"/>
     <span>&plus;1 &lpar;305&rpar; 1234&hyphen;5678</span>
-  </div>
-  <div>
+  </a>
+  <a href="#">
     <font-awesome-icon icon="fa-solid fa-envelope"/>
     <span>hello&commat;example&period;com</span>
-  </div>
-    <font-awesome-icon icon="fa-brands fa-facebook-f"/>
-    <font-awesome-icon icon="fa-brands fa-twitter"/>
-    <font-awesome-icon icon="fa-brands fa-linkedin-in"/>
+  </a>
+    <a href="#"><font-awesome-icon icon="fa-brands fa-facebook-f"/></a>
+    <a href="#"><font-awesome-icon icon="fa-brands fa-twitter"/></a>
+    <a href="#"><font-awesome-icon icon="fa-brands fa-linkedin-in"/></a>
 </div>
 
 </header>
@@ -46,6 +46,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  a {
+    color: #ccc;
   }
 
   span {

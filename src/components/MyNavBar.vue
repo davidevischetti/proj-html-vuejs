@@ -31,14 +31,17 @@ export default {
 nav {
     height: 50px;
     width: 100%;
+    
 
     img {
         height: 80%;
+        margin-top: 20px;
     }
 
     #nav-bar {
         display: flex;
         align-items: center;
+        margin-top: 20px;
         ul {
             li {
                 display: inline-block;

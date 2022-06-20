@@ -2,19 +2,22 @@
   <div id="app">
     <MyHeader/>
     <MyJumbo/>
+    <ServicesSection/>
   </div>
 </template>
 
 <script>
 import MyHeader from './components/MyHeader.vue'
 import MyJumbo from './components/MyJumbo.vue'
+import ServicesSection from './components/ServicesSection.vue'
 
 
 export default {
   name: 'App',
   components: {
     MyHeader,
-    MyJumbo
+    MyJumbo,
+    ServicesSection
 }
 }
 </script>
@@ -50,12 +53,22 @@ export default {
     background-color: transparent;
     border: 1px solid #038484;
     border-radius: 5px;
+    cursor: pointer;
   }
 
   .btn-hover {
     color: #fff;
     background-color: #038484;
-    border: none;
+
+  }
+
+  .special-text {
+  display: inline-block;
+  color: #058283;
+  background-color: #d5e7e8;
+  padding: 0 20px;
+  border-radius: 5px;
+  margin-left: 10px;
   }
 
 }
