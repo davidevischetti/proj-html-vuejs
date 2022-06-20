@@ -58,13 +58,13 @@ section {
         &.up {
             top: 0;
             left: 50%;
-            transform: translate(-50%, -25%);
+            transform: translate(-50%, -27%);
         }
 
         &.down {
             bottom: 0;
             left: 50%;
-            transform: translate(-50%, 75%);
+            transform: translate(-50%, 70%);
         }
     }
 
