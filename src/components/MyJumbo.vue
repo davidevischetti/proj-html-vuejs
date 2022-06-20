@@ -49,6 +49,11 @@ section {
       font-size: 60px;
       font-weight: 900;
       margin-bottom: 30px;
+
+      .special-text {
+        color: #058283;
+        background-color: #d5e7e8;
+      }
     }
 
     p {

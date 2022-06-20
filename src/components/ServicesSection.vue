@@ -79,6 +79,12 @@ section {
       font-size: 40px;
       width: 100%;
       margin: 20px 0;
+
+      .special-text {
+        color: #058283;
+        background-color: #d5e7e8;
+        margin-left: 10px;
+      }
     }
 
     p {

@@ -30,7 +30,6 @@ export default {
     img {
         width: 30px;
         height: 30px;
-        color: #54b0c1;
     }
 
     a {

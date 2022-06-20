@@ -3,6 +3,7 @@
     <MyHeader/>
     <MyJumbo/>
     <ServicesSection/>
+    <CompanySection/>
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import MyHeader from './components/MyHeader.vue'
 import MyJumbo from './components/MyJumbo.vue'
 import ServicesSection from './components/ServicesSection.vue'
+import CompanySection from './components/CompanySection.vue'
 
 
 export default {
@@ -17,7 +19,8 @@ export default {
   components: {
     MyHeader,
     MyJumbo,
-    ServicesSection
+    ServicesSection,
+    CompanySection
 }
 }
 </script>
@@ -49,7 +52,6 @@ export default {
 
   .btn {
     padding: 8px 20px;
-    color: #038484;
     background-color: transparent;
     border: 1px solid #038484;
     border-radius: 5px;
@@ -59,16 +61,12 @@ export default {
   .btn-hover {
     color: #fff;
     background-color: #038484;
-
   }
 
   .special-text {
-  display: inline-block;
-  color: #058283;
-  background-color: #d5e7e8;
-  padding: 0 20px;
-  border-radius: 5px;
-  margin-left: 10px;
+    display: inline-block;
+    padding: 0 20px;
+    border-radius: 5px;
   }
 
 }
