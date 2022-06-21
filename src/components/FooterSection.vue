@@ -99,12 +99,12 @@ section {
 
         p {
             font-size: 12px;
-            color: #666;
+            color: #888;
             margin: 20px 0;
         }
 
         a {
-            color: #666;
+            color: #888;
             font-size: 12px;
             margin-bottom: 10px;
         }
@@ -132,13 +132,13 @@ section {
         }
 
         i {
-            color: #666;
+            color: #888;
             font-size: 12px;
             margin-right: 10px;
         }
 
         a {
-            color: #666;
+            color: #888;
             font-size: 12px;
             margin-bottom: 10px;
         }
