@@ -6,6 +6,9 @@
     <CompanySection/>
     <ProjectsSection/>
     <ResultsSection/>
+    <ContactSection/>
+    <FooterSection/>
+    <MyFooter/>
   </div>
 </template>
 
@@ -16,6 +19,9 @@ import ServicesSection from './components/ServicesSection.vue'
 import CompanySection from './components/CompanySection.vue'
 import ProjectsSection from './components/ProjectsSection.vue'
 import ResultsSection from './components/ResultsSection.vue'
+import ContactSection from './components/ContactSection.vue'
+import FooterSection from './components/FooterSection.vue'
+import MyFooter from './components/MyFooter.vue'
 
 
 export default {
@@ -26,7 +32,10 @@ export default {
     ServicesSection,
     CompanySection,
     ProjectsSection,
-    ResultsSection
+    ResultsSection,
+    ContactSection,
+    FooterSection,
+    MyFooter
 }
 }
 </script>
@@ -48,6 +57,15 @@ export default {
     align-items: center;
   }
 
+  .sp-container {
+        flex-wrap: wrap;
+        padding:80px 20%;
+        padding-right: 20px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+  }
+  
   ul {
     list-style-type: none;
   }
@@ -62,6 +80,7 @@ export default {
     border: 1px solid #038484;
     border-radius: 5px;
     cursor: pointer;
+    color: #038484;
 
     &:hover {
         color: #fff;

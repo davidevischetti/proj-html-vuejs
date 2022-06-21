@@ -40,13 +40,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-
-  .info {
-    width: 40%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  z-index: 300;
 
   a {
     color: #ccc;
@@ -54,6 +48,13 @@ header {
 
   span {
     margin-left: 5px;
+  }
+
+  .info {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   }
 }
 </style>

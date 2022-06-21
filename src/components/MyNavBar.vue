@@ -86,7 +86,7 @@ nav {
 
                 &:hover {
                     border-bottom: 3px solid #038484;
-                    background-color: #d5e7e8;
+                    background-color: rgba($color: #d5e7e8, $alpha: 0.5);
                 }
 
                 a {

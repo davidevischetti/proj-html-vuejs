@@ -4,7 +4,7 @@
     <img class="bullets up" src="../assets/svg/svg-0.svg" alt="bullets">
     <img class="bullets down" src="../assets/svg/svg-0.svg" alt="bullets">
 
-    <div id="sp-container">
+    <div class="sp-container">
         <h5>ABOUT THE NETWORK</h5>
         <h2><div class="special-text">The</div> Company</h2>
         <p>For 12 years have been poviding audit and warranty&comma; financial advice&comma; risk advice&comma; taxes and releted services to select clients&period;</p>
@@ -79,15 +79,8 @@ section {
     }
     
 
-    #sp-container {
-        flex-wrap: wrap;
-        width: 50%;
-        padding:80px 20%;
-        padding-right: 20px;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        
+    .sp-container {   
+        width: 50%;      
 
         h5 {
         color: #54b0c1;

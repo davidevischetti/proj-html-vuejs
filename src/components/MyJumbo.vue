@@ -26,6 +26,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 section {
+  // Background sostituito per mancanza nel materiale di base
   background-image: url(https://img.freepik.com/free-vector/abstract-technology-white-gray-color-modern-background_41981-1010.jpg?w=2000);
   background-size: cover;
 }
