@@ -48,6 +48,7 @@ export default {
         flex-flow: column wrap;
         justify-content: flex-end;
         background-color: rgba(50, 50, 50, 0.5);
+        cursor: pointer;
 
         &:hover p,
         &:hover a { 

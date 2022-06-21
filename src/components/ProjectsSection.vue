@@ -6,13 +6,9 @@
     </div>
 
     <div id="projects-list-links">
-        <a href="#">ALL</a>
-        <a href="#">INSTITUTIONAL</a>
-        <a href="#">SOCIAL</a>
-        <a href="#">EVENTS</a>
-        <a href="#">INNOVATION</a>
-        <a href="#">ENVIRONMENT</a>
-        <a href="#">TECHNOLOGY</a>    
+        <a v-for="(link,index) in projectsLinks" @click="activeLinkFunc(link)" :key="index" :class="link.active ? 'select' : ''">
+        {{link.text}}
+        </a>           
     </div>
 
     <div id="projects-list">
@@ -30,6 +26,37 @@ export default {
     components: { ProjectsCard },
     data () {
         return {
+            projectsLinks : [
+                {
+                    text :'ALL',
+                    active : true
+                },
+                {
+                    text : 'INSTITUTIONAL',
+                    active : false
+                },
+                {
+                    text : 'SOCIAL',
+                    active : false
+                },
+                {
+                    text : 'EVENTS',
+                    active : false
+                },
+                {
+                    text : 'INNOVATION',
+                    active : false
+                },
+                {
+                    text : 'ENVIRONMENT',
+                    active : false
+                },
+                {
+                    text : 'TECHNOLOGY',
+                    active : false
+                },
+
+            ],
             projectsList : [
                 {
                     img: require('../assets/img/project-1.jpg'),
@@ -62,6 +89,16 @@ export default {
                     info: 'Academic professional program in social media'
                 },
             ]
+        }
+    },
+
+    methods : {
+        activeLinkFunc (activeLink) {
+            this.projectsLinks.forEach(element => {
+            element.active = false
+            });
+
+            activeLink.active = true
         }
     }
 }
@@ -103,13 +140,20 @@ section {
             color: #777;
             font-size: 15px;
             font-weight: 600;
-            padding: 8px;
-            border-radius: 3px;
+            padding: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+
+            &.select {
+                border-bottom: 3px solid #038484;
+            }
 
             &:hover {
                 background-color: #d5e7e8;
+                border-bottom: 3px solid #038484;
             }
         }
+
     }
 
     #projects-list {
